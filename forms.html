@@ -1,0 +1,269 @@
+<fieldset>
+
+  <legend>Registration form</legend><br><br>
+
+  <form class="thisformclass" action="mailto:serishaminnu01@gmail.com" method="post" autocomplete="on" enctype="plain/text">
+
+    <!--the enctype is used to specify that the form were are submitting  to the mail is plain text -->
+
+    <label for="photo">His/her photo</label><br><br>
+    <input id="photo" type="image" src="C:\Users\SIRISHA\Desktop\WEB DEVELOPMENT\Learning Project\Expertise.jfif" alt="Photo is not available" name="photo is" value="">
+    <br><br><hr>
+
+    <!--autocomplete is a boolean value which gives the values which are used before
+
+
+    Autocomplete allows the browser to predict the value.
+
+
+    When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.
+
+
+   The autocomplete attribute works with <form> and the following
+
+   <input> types: text, search, url, tel, email, password, datepickers, range, and color.-->
+
+    <!--textbox-->
+    <label for="#textbox">Empid</label>
+    <input id="textbox1" type="text" name="His/her Empid" value="1770313" readonly autofocus><br><br>
+
+    <!--The input autofocus attribute specifies that an input field should automatically get focus when the page loads.
+
+    The autofocus should be given to only single iput-->
+
+
+    <!-- readonly means that the value inside the textbox cannot be changed.
+
+    The input readonly attribute specifies that an input field is read-only.
+
+    A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+
+    The value of a read-only input field will be sent when submitting the form!-->
+
+
+
+    <label for="#textbox1">FIRSTNAME</label>
+    <input id="textbox1" type="text" name="His/her Username" value="" placeholder="Enter ur first name" size="20"><br><br>
+
+    <!--The input size attribute specifies the visible width, in characters, of an input field.
+
+    The default value for size is 20.
+
+    Note: The size attribute works with the following input types: text, search, tel, url, email, and password.-->
+
+
+    <label for="#textbox2">LASTNAME</label>
+    <input id="textbox2" type="text" name="His/her Username" value="" placeholder="Enter ur last name" maxlength="7"><br><br>
+
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--Password-->
+    <label for="#pswd box">PASSWORD</label>
+    <input id="pswd box" type="password" name="His/her Password" value="" placeholder="Enter ur Password"><br><br>
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--Emailbox-->
+    <label for="#emailbox">EMAIL</label>
+    <input id="emailbox" type="email" name="His/her mail is " value="" placeholder="Enter ur mail address"><br><br>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--URL-->
+    <label for="#urlbox">WEBSITE</label>
+    <input id="urlbox" type="url" name="His/her website is " value="" placeholder="Enter ur website address"><br><br>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--date-->
+    <label for="#Dob">Date Of Birth</label>
+    <input id="Dob" type="date" name="His/Her DOB" value=""><br><br>
+
+
+
+    <!--datetime local-->
+    <label for="#doj">Date Of Joining</label>
+    <input id="doj" type="datetime-local" name="His/Her date of joining" value=""><br><br>
+
+
+    <!--week-->
+    <label for="#week">Applied week is</label>
+    <input id="week" type="week" name="his applied week is " value=""><br><br>
+
+
+    <!--month-->
+    <label for="#month">month Of Joining</label>
+    <input id="month" type="month" name="His/Her applied month of joining" value=""><br><br>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--number-->
+    <label for="#time">Applied before for TCS</label>
+    <input id="time" type="number" name="he applied before for this many times for tcs  " value=""><br><br>
+    <label for="#time2">Applied before for CTS</label>
+    <input id="time2" type="number" name="he applied before for this many times for cts" value="" max="10" min="1" step="2"><br><br>
+    <hr>
+
+    <!--telephone-->
+
+    <label for="#phone1">PHONE NUMBER</label>
+    <input id="phone1" type="tel" name="His/her phone num is" value="" maxlength="10"><br><br>
+
+
+    <!--The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+
+    Note: When a maxlength is set, the input field will not accept more than the specified number of characters.
+
+    However, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code.-->
+
+
+    <label for="#pin">PINCODE</label>
+    <input id="pin" type="tel" name="His/her pincode" value="" size="6"><br><br>
+
+
+    <label for="#phone2">ALT PHONE NUMBER</label>
+    <input id="phone2" type="tel" name="His/her phone num is" value="" maxlength="10" pattern="[0-9]{10}"><br><br>
+    <hr>
+
+
+    <!--The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted.
+
+    The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.-->
+
+
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--checkbox-->
+    <input id="#pref1" type="checkbox" name="His/her Skills" value="C" >
+    <label for="Check box">C language</label><br>
+
+    <!--The input required attribute specifies that an input field must be filled out before submitting the form.
+
+    The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.-->
+
+
+    <input id="#pref2" type="checkbox" name="His/her Skills" value="python" checked>
+    <label for="Check box">python</label><br>
+    <input id="#pref3" type="checkbox" name="His/her Skills" value="html" disabled>
+    <label for="Check box">HTML</label><br>
+    <input id="#pref4" type="checkbox" name="His/her Skills" value="css">
+    <label for="Check box">CSS</label><br>
+    <input id="#pref5" type="checkbox" name="His/her Skills" value="js">
+    <label for="Check box">JS</label><br><br>
+    <hr />
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--Radio-->
+    <input id="#MALE" type="radio" name="Gender" value=" he is a male">
+    <label for="gender">Male</label><br>
+    <input id="#FEMALE" type="radio" name="Gender" value="she is a female">
+    <label for="gender">Female</label><br>
+    <input id="#TRANSGENDER" type="radio" name="Gender" value="candidate is transgender">
+    <label for="gender">Transgender</label><br>
+    <input id="#OTHERS" type="radio" name="Gender" value="candidate didn't specify">
+    <label for="gender">Others</label><br><br>
+    <hr>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--select-->
+    <label for="browsers">Select ur browser</label>
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist><br><br><hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!---->
+
+
+
+
+
+
+    <!--color-->
+    <label for="#Favcolor">Favorite color</label>
+    <input id="Favcolor" type="color" name="His/her fav color is " value=""><br><br>
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--Range-->
+    <label for="#weight1">Before usage Weight is </label>
+    <input id="weight1" type="range" name="Before Weight is" value=""><br><br>
+    <label for="#weight2">After usage Weight is </label>
+    <input id="weight1" type="range" name="After Weight is" value="Limit is 70" max="70" min="0"><br><br>
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--Search-->
+
+    <label for="#Doubts">Check for doubts</label>
+    <input id="Doubts" type="search" name="He Searched this doubt:" value=""><br><br>
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--File-->
+
+    <label for="#resume">Attach ur resume</label>
+    <input id="resume" type="file" name="His/her Resume is" value=""><br><br>
+
+
+    <label for="#Photo nd signature">Attach ur Photo nd signature</label>
+    <input id="Photo nd signature" type="file" name="His/her Photo nd signature is" value="" multiple><br><br>
+    <hr>
+
+    <!---The input multiple attribute specifies that the user is allowed to enter more than one value in an input field.
+
+    The multiple attribute works with the following input types: email, and file.-->
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <!--button-->
+    <label for="#register">Register By clicking Here</label>
+    <input id="register" type="button" value="Click here to register"><br><br>
+    <hr>
+
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--submit button-->
+    <label for="#submit">submit By clicking Here</label>
+    <input id="submit" type="submit" value="Click here to submit"><br><br>
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--reset button-->
+    <label for="#reset">Reset By clicking Here</label>
+    <input id="reset" type="reset" value="Click here to reset"><br><br>
+    <hr>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--text area-->
+
+    <label for="#textarea">Any Comments</label><br><br>
+    <textarea id="textarea" name="His/her comments are" rows="5" cols="50" placeholder="Enter ur comments here..."></textarea>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  </form>
+
+
+
+</fieldset>
